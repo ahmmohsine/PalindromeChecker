@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
+  </Folder>
   <Folder Name="/src/">
     <Project Path="src/PalindromeChecker.Core/PalindromeChecker.Core.csproj" />
     <Project Path="src/PalindromeChecker.Desktop/PalindromeChecker.Desktop.csproj" />
