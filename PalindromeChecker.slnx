@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/PalindromeChecker.Core/PalindromeChecker.Core.csproj" />
+    <Project Path="src/PalindromeChecker.Desktop/PalindromeChecker.Desktop.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/PalindromeChecker.Tests/PalindromeChecker.Tests.csproj" />
+  </Folder>
+</Solution>
