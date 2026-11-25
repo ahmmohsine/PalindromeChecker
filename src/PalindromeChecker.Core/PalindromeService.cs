@@ -1,6 +1,4 @@
-﻿using System.Text;
-
-namespace PalindromeChecker.Core;
+﻿namespace PalindromeChecker.Core;
 
 public class PalindromeService : IPalindromeService
 {
@@ -8,7 +6,7 @@ public class PalindromeService : IPalindromeService
     {
         ArgumentNullException.ThrowIfNull(phrase);
         var chars = new string(phrase.ToLowerInvariant()
-            .Normalize(NormalizationForm.FormD)
+            //.Normalize(NormalizationForm.FormD)
             .Where(char.IsLetterOrDigit)
             .ToArray());
         if (chars.Length == 0)
